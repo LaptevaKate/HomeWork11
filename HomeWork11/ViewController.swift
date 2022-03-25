@@ -44,7 +44,7 @@ class ViewController: UIViewController {
         lableTap()
         initTitleLable()
         initInformLabel()
-        rotateView(targetView: planeImageView, duration: 9)
+        rotateView(targetView: planeImageView, duration: 3)
     }
     
     //MARK: - Methods
@@ -102,11 +102,11 @@ class ViewController: UIViewController {
     
 
     private func rotateView(targetView: UIView, duration: Double) {
-        UIView.animate(withDuration: duration, delay: 0.0, options: .curveLinear, animations: {
+        UIView.animate(withDuration: duration, delay: 0.0, options: [], animations: {
             self.planeImageView.transform = self.planeImageView.transform.rotated(by: .pi)
-        }) { finished in
-            self.rotateView(targetView: targetView, duration: duration)
-        }
+            self.planeImageView.transform = self.planeImageView.transform.rotated(by: .pi)
+        }, completion: nil)
+        
     }
 }
        
