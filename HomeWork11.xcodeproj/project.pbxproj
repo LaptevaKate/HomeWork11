@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5EAD93C127EC7B5100AA8643 /* Ubuntu-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5EAD93BF27EC7B5100AA8643 /* Ubuntu-Bold.ttf */; };
+		5EAD93C227EC7B5100AA8643 /* Ubuntu-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5EAD93C027EC7B5100AA8643 /* Ubuntu-Italic.ttf */; };
 		5EECD26F27EC3D7500A277E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EECD26E27EC3D7500A277E9 /* AppDelegate.swift */; };
 		5EECD27127EC3D7500A277E9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EECD27027EC3D7500A277E9 /* SceneDelegate.swift */; };
 		5EECD27327EC3D7500A277E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EECD27227EC3D7500A277E9 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5EAD93BF27EC7B5100AA8643 /* Ubuntu-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Bold.ttf"; sourceTree = "<group>"; };
+		5EAD93C027EC7B5100AA8643 /* Ubuntu-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Italic.ttf"; sourceTree = "<group>"; };
 		5EECD26B27EC3D7500A277E9 /* HomeWork11.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeWork11.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EECD26E27EC3D7500A277E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5EECD27027EC3D7500A277E9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +66,8 @@
 				5EECD27427EC3D7500A277E9 /* Main.storyboard */,
 				5EECD27727EC3D7700A277E9 /* Assets.xcassets */,
 				5EECD27927EC3D7700A277E9 /* LaunchScreen.storyboard */,
+				5EAD93BF27EC7B5100AA8643 /* Ubuntu-Bold.ttf */,
+				5EAD93C027EC7B5100AA8643 /* Ubuntu-Italic.ttf */,
 				5EECD27C27EC3D7700A277E9 /* Info.plist */,
 			);
 			path = HomeWork11;
@@ -125,8 +131,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5EAD93C127EC7B5100AA8643 /* Ubuntu-Bold.ttf in Resources */,
 				5EECD27B27EC3D7700A277E9 /* LaunchScreen.storyboard in Resources */,
 				5EECD27827EC3D7700A277E9 /* Assets.xcassets in Resources */,
+				5EAD93C227EC7B5100AA8643 /* Ubuntu-Italic.ttf in Resources */,
 				5EECD27627EC3D7500A277E9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
